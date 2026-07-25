@@ -12,7 +12,7 @@ from core_chatbot import medical_chat
 
 st.set_page_config(
     page_title="SymptoCare",
-    page_icon="\U0001fa7a",
+    page_icon="🩺",
     layout="wide"
 )
 
@@ -60,7 +60,7 @@ for symptom, category in symptom_category_map.items():
 st.markdown(
     """
     <div style="padding: 1.2rem 0 0.4rem 0;">
-        <h1 style="margin-bottom:0;">\U0001fa7a SymptoCare</h1>
+        <h1 style="margin-bottom:0;">🩺 SymptoCare</h1>
         <p style="font-size:1.05rem; color:#4A5A6A; margin-top:0.3rem;">
             AI-assisted symptom analysis and clinical information support
         </p>
@@ -85,7 +85,7 @@ with st.sidebar:
 
     st.markdown(
         """
-        \u26a0\ufe0f **Disclaimer**
+        ⚠️ **Disclaimer**
 
         This application is provided for educational and informational
         purposes only. It does not constitute medical advice and must not
@@ -185,7 +185,7 @@ if st.session_state.prediction_result is not None:
     for disease in result["top_predictions"]:
 
         st.write(
-            f"\u2022 **{disease['disease']}** ({disease['confidence']*100:.2f}%)"
+            f"• **{disease['disease']}** ({disease['confidence']*100:.2f}%)"
         )
 
     st.divider()
