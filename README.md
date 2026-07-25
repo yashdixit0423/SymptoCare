@@ -286,6 +286,8 @@ Potential enhancements include:
 
 **Yash Dixit**
 
+B.Tech Computer Science & Engineering (Artificial Intelligence & Machine Learning)
+
 ---
 
 # License
