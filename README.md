@@ -284,9 +284,7 @@ Potential enhancements include:
 
 # Author
 
-**Shreya Tyagi**
-
-B.Tech Computer Science & Engineering (Artificial Intelligence & Machine Learning)
+**Yash Dixit**
 
 ---
 
